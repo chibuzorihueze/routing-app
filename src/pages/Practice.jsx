@@ -3,11 +3,13 @@ import { useState } from "react";
 const Practice = () => {
   const [result, setResult] = useState("");
 
-  return <div>
-    <input type="text" onChange={setResult}/>
+  return (
+    <div>
+      <input type="text" onChange={setResult} />
 
-    <p>{result}</p>
-  </div>;
+      {result}
+    </div>
+  );
 };
 
 export default Practice;

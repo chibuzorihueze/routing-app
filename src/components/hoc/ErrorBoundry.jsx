@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 
 function ErrorBoundary(props) {
   const [hasError, setHasError] = useState(false);
