@@ -1,9 +1,13 @@
-
+import { useState } from "react";
 
 const Practice = () => {
-  return (
-    <div>Practice</div>
-  )
-}
+  const [result, setResult] = useState("");
 
-export default Practice
+  return <div>
+    <input type="text" onChange={setResult}/>
+
+    <p>{result}</p>
+  </div>;
+};
+
+export default Practice;
