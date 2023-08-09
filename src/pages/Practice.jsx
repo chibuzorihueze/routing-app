@@ -5,8 +5,9 @@ const Practice = () => {
 
   const handleInputChange = (e) => {
     setResult(e.target.value);
+    
   };
-  
+
   return (
     <div>
       <input type="text" onChange={handleInputChange} />
